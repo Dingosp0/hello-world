@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+	<link rel="stylesheet" href="res/css/style.min.css">
+
+	<title>REWE Intranet Frontend | Unterseite - Zentrale</title>
+</head>
+<body>
+
+	<!-- Preloader -->
+	<div class="preloader"></div>
+	<div class="preloader-overlay"></div>
+	<script src="res/js/preloader.min.js"></script>
+
+	<!-- Header -->
+	<div class="header">
+
+		<!-- Header: 1st row -->
+		<div class="header__row-1">
+			<!-- Container -->
+			<div class="header__container header__container--padding header__container--justified">
+				<!-- REWE Logo -->
+				<a href="#" class="logo">
+					<span class="logo__rewe animation"></span>
+					<span class="logo__square logo__square--red animation"></span>
+					<span class="logo__square logo__square--yellow animation"></span>
+					<span class="logo__group animation"></span>
+				</a>
+				<!-- Login area -->
+				<div class="profile">
+					<div class="profile__avatar" tabindex="0"><img src="res/img/temp/avatar.png" alt="Profilbild"></div>
+					<div class="profile__info">
+						<span class="profile__name">Fr. Isabell Tamasi</span>
+						<a class="profile__button" href="#">
+							<span class="profile__icon icon icon--envelope">
+								<span class="icon__bubble">1</span>
+							</span>
+							<span class="profile__text">Meine Nachrichten</span>
+						</a>
+						<a class="profile__button" href="#">
+							<span class="profile__icon icon icon--calendar"></span>
+							<span class="profile__text">Kalender</span>
+						</a>
+					</div>
+					<div class="profile__options">
+						<a class="profile__button profile__button--logout" href="#">
+							<span class="profile__icon icon icon--small icon--exit"></span>
+							<span class="profile__text">Logout</span>
+						</a>
+						<a class="profile__button" href="#">
+							<span class="profile__icon icon icon--small icon--lock"></span>
+							<span class="profile__text">Passwort ändern</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header: 2nd row -->
+		<div class="header__row-2">
+			<!-- Container -->
+			<div class="header__container">
+				<!-- Main menu -->
+				<ul class="menu">
+					<li class="menu__item menu__item--active"><a href="#">REWE International AG</a></li>
+					<li class="menu__item"><a href="#">BILLA</a></li>
+					<li class="menu__item menu__item--submenu">
+						<span class="a11y-hover" tabindex="0">MERKUR</span>
+						<ul class="submenu">
+							<li class="submenu__group">
+								<ul class="submenu__list">
+									<li class="submenu__heading submenu__heading--central">Zentrale</li>
+									<li class="submenu__item"><a href="#">Über merkur</a></li>
+									<li class="submenu__item"><a href="#">Merkur Restaurants</a></li>
+								</ul>
+							</li>
+							<li class="submenu__group">
+								<ul class="submenu__list">
+									<li class="submenu__heading submenu__heading--branch">Filiale</li>
+									<li class="submenu__item"><a href="#">Verkauf</a></li>
+									<li class="submenu__item"><a href="#">Marketing</a></li>
+									<li class="submenu__item"><a href="#">Behörden</a></li>
+									<li class="submenu__item"><a href="#">Rayonsleiter</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="menu__item"><a href="#">BIPA</a></li>
+					<li class="menu__item"><a href="#">PENNY</a></li>
+					<li class="menu__item"><a href="#">ADEG</a></li>
+					<li class="menu__item"><a href="#">BILLA CEE</a></li>
+					<li class="menu__item"><a href="#">Lager &amp; Transport</a></li>
+					<li class="menu__item"><a href="#">Dienstleistung</a></li>
+					<li class="menu__item"><a href="#">Touristik</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Main wrapper -->
+	<div class="wrapper">
+		<!-- Grid -->
+		<div class="grid">
+
+			<!-- Sidebar column -->
+			<div class="col col--4">
+
+				<!-- Widget box -->
+				<div class="box widget box--black widget--expanded">
+					<!-- Widget title -->
+					<div class="widget__title">
+						<span class="widget__icon icon icon--cog animation"></span>
+						<h3>Dienstleistungen</h3>
+						<span class="widget__toggle button__toggle" tabindex="0"><span></span></span>
+					</div>
+					<!-- Widget content -->
+					<div class="widget__content">
+						<!-- Tree menu -->
+						<ul class="tree">
+							<li class="tree__item tree__item--expandable">
+								<span class="tree__text" tabindex="0">Widget 1</span>
+								<ul class="tree tree--nested tree--2">
+									<li class="tree__item">
+										<span class="tree__text" tabindex="0">Link</span>
+									</li>
+								</ul>
+							</li>
+							<li class="tree__item">
+								<a class="tree__text" href="#">Widget 2</a>
+							</li>
+							<li class="tree__item tree__item--expandable">
+								<span class="tree__text" tabindex="0">Widget 3</span>
+								<ul class="tree tree--nested tree--2">
+									<li class="tree__item">
+										<span class="tree__text" tabindex="0">Link</span>
+									</li>
+								</ul>
+							</li>
+							<li class="tree__item tree__item--expandable">
+								<span class="tree__text" tabindex="0">Widget 4</span>
+								<ul class="tree tree--nested tree--2">
+									<li class="tree__item">
+										<span class="tree__text" tabindex="0">Link</span>
+									</li>
+								</ul>
+							</li>
+							<li class="tree__item tree__item--expandable tree__item--expanded">
+								<span class="tree__text" tabindex="0">Qualitätsmanagement</span>
+								<ul class="tree tree--nested tree--2">
+									<li class="tree__item tree__item--expandable tree__item--expanded">
+										<span class="tree__text" tabindex="0">Das Team</span>
+										<ul class="tree tree--nested tree--3">
+											<li class="tree__item">
+												<a class="tree__text" href="#">Organigramm Übersicht QM mit zweizeilger Headline</a>
+											</li>
+											<li class="tree__item">
+												<a class="tree__text" href="#">RIAG</a>
+											</li>
+											<li class="tree__item">
+												<a class="tree__text" href="#">Gruppenfoto</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="tree__item tree__item--expandable">
+								<span class="tree__text" tabindex="0">Widget 6</span>
+								<ul class="tree tree--nested tree--2">
+									<li class="tree__item">
+										<span class="tree__text" tabindex="0">Link</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Content column -->
+			<div class="col col--8">
+
+				<!-- Breadcrumbs -->
+				<div class="breadcrumbs">
+					<a class="breadcrumbs__back" href="#">Zurück</a>
+				</div>
+
+				<!-- Content box -->
+				<div class="box box--black box--padding">
+					<!-- Hero image -->
+					<div class="hero"><img src="res/img/temp/bild_1.jpg" alt="Bild"></div>
+					<!-- Text -->
+					<div class="text">
+						<h1>Willkommen Fr Isabell Tamasi</h1>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+						<p>Aktive nachhaltige Sortimentsgestaltung und Förderung <strong>des Konsums nachhaltigerer Produkte</strong> stehen im Mittelpunkt der Unternehmensstrategie im Bereich Grüne Produkte. Durch die Pionierarbeit im Bereich Bioprodukte und im Ausbau des Ja! Natürlich und Echt B!O Sortiments haben wir entscheidend zu einer Sensibilisierung der KonsumentInnen beigetragen.</p>
+						<div class="grid">
+							<p class="col col--6">Mit dem <strong>PRO PLANET</strong> Label für nachhaltigere Produkte setzt REWE International AG ein weiteres Zeichen in puncto Nachhaltigkeit. Mit PRO PLANET werden konventionell hergestellte Produkte gekennzeichnet, die sich nicht nur durch hohe Qualität, sondern auch durch ökologische und soziale Nachhaltigkeit auszeichnen. Zur Vergabe des Labels wird ein transparenter mehrstufiger Prozess durchgeführt. Darin wird der Lebenszyklus ausgewählter Produktgruppen von internen und externen Experten umfassend analysiert.</p>
+							<p class="col col--6"><img src="res/img/temp/bild_2.jpg" alt="Bild"></p>
+						</div>
+						<p>Zusätzlich setzen wir bei unserem <strong>Sortiment als Orientierungshilfe</strong> zunehmend auf Herkunftsnachweise, Zertifizierungen und Gütesiegel, die extern auditiert werden und kontrollierten Mindestkriterien entsprechen.</p>
+						<p>Unsere Leitlinie für Nachhaltiges Wirtschaften dokumentiert das übergeordnete Bekenntnis der REWE Group zur Verantwortung für Umwelt und Gesellschaft. Sie bildet einen Grundstock von Werten und Handlungsempfehlungen, der für alle Geschäftseinheiten gleichermaßen gilt. Die Leitlinie für Nachhaltiges Wirtschaften ist zudem die Wertebasis für die Geschäftsbeziehungen mit unseren Vertragspartnern. Sie dient den Vertragspartnern als Orientierungshilfe bei der Entwicklung und Umsetzung eigener Nachhaltigkeitsleitlinien und -managementsysteme entlang ihrer Lieferkette.</p>
+						<p><strong>Auf Grundlage der Leitlinie für Nachhaltiges Wirtschaften</strong> werden spezifische Leitlinien für sozial und ökologisch verantwortliches Wirtschaften entwickelt, u. a. bereits für Fisch-, Palmöl- und Kakaoprodukte.</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Collapsible sidebar button -->
+	<div class="button__sidebar" tabindex="0">
+		<span class="button__sidebar-text">Featureblöcke</span>
+		<span class="button__sidebar-circle">
+			<span class="icon icon--large icon--blocks"></span>
+		</span>
+	</div>
+
+	<!-- Collapsible sidebar -->
+	<div class="sidebar">
+
+		<!-- Top (close button) -->
+		<div class="sidebar__top">
+			<div class="sidebar__close button__toggle" tabindex="0"><span></span></div>
+		</div>
+
+		<!-- Sidebar content -->
+		<div class="sidebar__content">
+			<!-- Form group -->
+			<div class="form__group">
+				<input class="form__text form__field form__text--combo" type="text" placeholder="Infonetsuche">
+				<input class="form__button form__button--combo" type="submit" value="Los">
+			</div>
+			<!-- External link -->
+			<a class="sidebar__link" href="#">Erweiterte Suche <span>(externer Link)</span><i class="icon icon--small icon--lock"></i></a>
+			<!-- Divider -->
+			<hr class="sidebar__divider">
+			<!-- Form group -->
+			<div class="form__group">
+				<input class="form__text form__field form__text--combo" type="text" placeholder="Telefonsuche">
+				<input class="form__button form__button--combo" type="submit" value="Los">
+			</div>
+			<!-- External link -->
+			<a class="sidebar__link" href="#">Erweiterte Suche <span>(externer Link)</span><i class="icon icon--small icon--lock"></i></a>
+			<!-- Divider -->
+			<hr class="sidebar__divider">
+			<!-- Toggle -->
+			<div class="sidebar__toggle sidebar__toggle--expanded">
+				<span class="sidebar__toggle-switch" tabindex="0">Weitere Filter</span>
+				<div class="sidebar__toggle-content">
+					<div class="form__group">
+						<select class="form__select form__field form__field--half">
+							<option value="0">Bundesland</option>
+							<option value="1">Option</option>
+						</select>
+						<input class="form__text form__field form__field--half" type="text" placeholder="Filter 2">
+					</div>
+					<div class="form__group">
+						<select class="form__select form__field form__field--half">
+							<option value="0">Ort</option>
+							<option value="1">Option</option>
+						</select>
+						<div class="form__radio">
+							<input type="radio" id="radio-1" name="radio" value="1" checked="checked">
+							<span></span>
+							<label for="radio-1" tabindex="0">Ja</label>
+						</div>
+						<div class="form__radio">
+							<input type="radio" id="radio-0" name="radio" value="0">
+							<span></span>
+							<label for="radio-0" tabindex="0">Nein</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tree menu -->
+			<ul class="tree sidebar__tree">
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--calendar2"></span>
+						<span class="sidebar__tree-text">Schnelleinstieg</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+							<span class="sidebar__list-options">
+								<span class="sidebar__list-option"><i class="icon icon--small icon--cog"></i></span>
+								<span class="sidebar__list-option"><i class="icon icon--small icon--lock"></i></span>
+							</span>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 3</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 4</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 5</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 6</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text sidebar__list-text--nobullet" href="#">
+								<span>Widget hinzufügen</span>
+								<span class="button__toggle button__toggle--small"><span></span></span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--application"></span>
+						<span class="sidebar__tree-text">Applikationen</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+					</ul>
+				</li>
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--share"></span>
+						<span class="sidebar__tree-text">WebForm Einstiege</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+					</ul>
+				</li>
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--layout"></span>
+						<span class="sidebar__tree-text">Sharepoint Portale</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+					</ul>
+				</li>
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--tag"></span>
+						<span class="sidebar__tree-text">Services</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+					</ul>
+				</li>
+				<li class="tree__item sidebar__tree-item tree__item--expandable">
+					<span class="tree__text sidebar__tree-label" tabindex="0">
+						<span class="icon icon--cog"></span>
+						<span class="sidebar__tree-text">Weitere Widgets</span>
+						<span class="button__toggle sidebar__tree-toggle"></span>
+					</span>
+					<ul class="tree sidebar__list tree--nested">
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 1</a>
+						</li>
+						<li class="tree__item sidebar__list-item">
+							<a class="tree__text sidebar__list-text" href="#">Widget 2</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="sidebar-overlay"></div>
+
+	<!-- JavaScripts -->
+	<script src="res/js/vendor.js"></script>
+	<script src="res/js/custom.min.js"></script>
+
+</body>
+</html>
